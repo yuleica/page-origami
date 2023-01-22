@@ -1,0 +1,31 @@
+import React from 'react';
+import Image from 'next/image';
+
+import stylesh from '../styles/Home.module.css';
+import styles from '../styles/Otro.module.css';
+
+export default function control() {
+  return (
+    <div className={stylesh.main}>
+        <div className={stylesh.thirteen}>
+            <Image 
+                priority
+                src={"/img/creativity.png"}
+                height={300}
+                width={300}
+                alt="control"
+                className={styles.logoItem} 
+            
+            />
+        </div>
+        <h1>UNE - SISTEMAS DE CONTROL Y GESTIÓN</h1>
+        <p className={stylesh.card}>
+            ORIGAMI desarrolla soluciones tecnológicas para distintos desafíos que la industria de hoy mira, en relación al medio ambiente, el cambio climático, la resiliencia y la sostenibilidad
+        </p>   
+        <p className={stylesh.card}>
+            Origami tiene las capacidades para diseñar y desarrollar Sistemas de Control y Sistemas de Gestión de la Producción (SGPs), con gran experiencia en Instrumentación y Procesos Industriales. Las plataformas con las que Origami puede trabajar son Siemens, Rockwell, ABB
+        </p> 
+
+    </div>
+  )
+}
