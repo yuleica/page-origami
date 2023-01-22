@@ -6,7 +6,7 @@ import styles from '../styles/Otro.module.css';
 
 export const Comunitarias = () => {
   return (
-    <div className={styles.container} id="intereses">
+    <div className={styles.container}>
         <div className={styles.gridContainer}>
             <div className={styles.item1}>
                 <Link href="/energia">

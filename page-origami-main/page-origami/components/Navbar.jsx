@@ -1,14 +1,13 @@
 import React from 'react';
-import {Link} from 'react-scroll/modules';
 import Links from 'next/link';
 import Image from 'next/image';
 
-import styles from '../styles/Otro.module.css';
+import styles from '../styles/Home.module.css';
 
 
 export const Navbar = () => {
   return (
-    <div className={styles.gridContainerC}>
+    <div className={styles.navContainer}>
         <nav className={styles.nav}>
             <ul className={styles.ul}>
                 <li className={styles.li}>
@@ -24,64 +23,44 @@ export const Navbar = () => {
                 </li>
 
                 <li className={styles.li}>
-                  <Link 
+                  <Links 
                     className={styles.a} 
-                    to="/"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
+                    href="/"
                   >
                     Inicio
-                  </Link>
+                  </Links>
                 </li>
                 <li className={styles.li}>
-                  <Link 
+                  <Links 
                     className={styles.a} 
-                    to="nosotros" 
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
+                    href="/nosotros" 
                   >
                     Nosotros 
-                  </Link>
+                  </Links>
                 </li>
                 <li className={styles.li}>
-                  <Link 
+                  <Links 
                     className={styles.a} 
-                    to="contacto" 
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    Contacto 
-                  </Link>
-                </li>
-                <li className={styles.li}>
-                  <Link 
-                    className={styles.a} 
-                    to="industriales" 
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
+                    href="/industriales" 
                   >
                     Soluciones Industriales 
-                  </Link>
+                  </Links>
                 </li>
                 <li className={styles.li}>
-                  <Link 
+                  <Links 
                     className={styles.a} 
-                    to="comunitarias" 
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
+                    href="/comunitarias" 
                   >
                     Soluciones Comunitarias 
-                  </Link>
+                  </Links>
+                </li>
+                <li className={styles.li}>
+                  <Links 
+                    className={styles.a} 
+                    href="/contacto" 
+                  >
+                    Contacto 
+                  </Links>
                 </li>
             </ul>
         </nav>

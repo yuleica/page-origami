@@ -113,8 +113,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 75px;
-  height: 75px;
+  width: 100%;
+  height: 100%;
   padding: 25px 10px;
   margin-left: 16px;
   transform: translateZ(0);
@@ -149,6 +149,73 @@
     rgba(var(--tile-end-rgb), 1)
   );
   background-clip: content-box;
+}
+
+.navContainer{
+  max-width: var(--max-width);
+  width: 100%;
+  margin-inline: auto;
+  background-color: #333;
+  color: beige;
+}
+
+.nav{
+  margin: 0;
+  padding-block: 2rem;
+}
+
+.nav ul li{
+  font-size: 1.5rem;
+  padding: auto;
+}
+
+
+.nav ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;  
+}
+
+.nav ul li{
+  text-align: left;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul li a{
+  padding: 10px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.li:hover,
+.li:focus,
+.li:active,
+.a:hover {
+  color: aquamarine;
+  transition: color 0.15s ease;
+}
+
+.logo:hover {
+  background-color: aquamarine;
+  border-radius: 3px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  
+}
+
+.logoItem{
+  width: auto;
+  align-items: center;
+}
+
+.itemF {
+  padding-bottom: 25px;
 }
 
 /* Enable hover only on non-touch devices */
