@@ -4,10 +4,16 @@ import Image from 'next/image';
 
 import stylesh from '../styles/Home.module.css';
 import styles from '../styles/Otro.module.css';
+import Layaout from '../components/Layaout';
 
 export default function industriales() {
   return (
+    <Layaout
+    title="Servicios Industriales"
+    description="Servicios Industriales"
+    >
     <div className={stylesh.main}>
+    <h1>Soluciones Industriales</h1>
         <div className={stylesh.thirteen}>
             <Image 
                 priority
@@ -71,5 +77,6 @@ export default function industriales() {
             </div>
         </div>
     </div>
+    </Layaout>
   )
 }

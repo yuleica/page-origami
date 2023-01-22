@@ -3,9 +3,14 @@ import Image from 'next/image';
 
 import stylesh from '../styles/Home.module.css';
 import styles from '../styles/Otro.module.css';
+import Layaout from '../components/Layaout';
 
 export default function control() {
   return (
+    <Layaout
+    title="Sistemas de Control y Gestión"
+    description="Sistemas de Control y Gestión"
+    >
     <div className={stylesh.main}>
         <div className={stylesh.thirteen}>
             <Image 
@@ -27,5 +32,6 @@ export default function control() {
         </p> 
 
     </div>
+    </Layaout>
   )
 }

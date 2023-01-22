@@ -3,9 +3,14 @@ import Image from 'next/image';
 
 import stylesh from '../styles/Home.module.css';
 import styles from '../styles/Otro.module.css';
+import Layaout from '../components/Layaout';
 
 export default function ernc() {
   return (
+    <Layaout
+    title="ERNC"
+    description="ERNC"
+    >
     <div className={stylesh.main}>
         <div className={stylesh.thirteen}>
             <Image 
@@ -32,5 +37,6 @@ export default function ernc() {
             3.- Colaborar con Clientes e Inversionistas en la generación de proyectos de ERNC a través del desarrollo de estudios técnicos, normativos, ambientales y legales, ingeniería de detalles de un equipo multidisciplinario, apoyo técnico y logístico en compras y suministros, apoyo en construcción y puesta en marcha.
         </p>
     </div>
+    </Layaout>
   )
 }

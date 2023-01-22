@@ -4,9 +4,15 @@ import Image from 'next/image';
 
 import styles from '../styles/Otro.module.css';
 import stylesh from '../styles/Home.module.css';
+import Layaout from '..components/Layaout';
 
 export const Portada = () => {
   return (
+    <Layaout
+    title="Home de Web Origami"
+    description="Home de Web Origami"
+    home={true}
+    >
     <div className={stylesh.main}>
         <div>
             <Image
@@ -44,7 +50,8 @@ export const Portada = () => {
                 </Link>
                 <p className={styles.descriptionItemC}>Comunidades Locales</p>
             </div>
+        </div>
     </div>
-</div>
+    </Layaout>
   )
 }

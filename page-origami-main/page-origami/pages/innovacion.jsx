@@ -3,9 +3,14 @@ import Image from 'next/image';
 
 import stylesh from '../styles/Home.module.css';
 import styles from '../styles/Otro.module.css';
+import Layaout from '../components/Layaout';
 
 export default function innovacion() {
   return (
+    <Layaout
+    title="Innovación Tecnológica"
+    description="Innovación Tecnológica"
+    >
     <div className={stylesh.main}>
         <div className={stylesh.thirteen}>
             <Image 
@@ -37,5 +42,6 @@ export default function innovacion() {
             5.- Ingeniería de Piezas y Partes 3D
         </p>
     </div>
+    </Layaout>
   )
 }
