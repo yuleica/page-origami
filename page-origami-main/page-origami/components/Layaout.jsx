@@ -1,7 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import { Header } from './Header';
 import {Navbar} from './Navbar';
 import {Footer} from './Footer';
 
@@ -15,19 +14,18 @@ export default function Layaout({children, title, description, home}) {
             <title>{title}</title>
             <meta name="description" content={description} />
         </Head>
-        <header><Header /></header>
         <Navbar />       
         <main>{children}</main>
         {!home && (
             <div>
-                <li className={stylesh.li}>
-                  <Link 
-                    className={stylesh.description} 
-                    href="/" 
-                  >
-                    ...Ir al Inicio
-                  </Link>
-                </li>
+     
+              <Link 
+                className={stylesh.description} 
+                href="/" 
+              >
+                  ...Ir al Inicio
+              </Link>
+          
             </div>
       )}
       <footer className="text-center footer-style"><Footer /></footer>

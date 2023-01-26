@@ -4,13 +4,13 @@ import Image from 'next/image';
 
 import styles from '../styles/Otro.module.css';
 import stylesh from '../styles/Home.module.css';
-import Layaout from '..components/Layaout';
+import Layaout from './Layaout';
 
 export const Portada = () => {
   return (
     <Layaout
-    title="Home de Web Origami"
-    description="Home de Web Origami"
+    title="Página de Web Origami"
+    description="Página de Web Origami"
     home={true}
     >
     <div className={stylesh.main}>

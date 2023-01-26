@@ -7,7 +7,7 @@ import stylesh from '../styles/Home.module.css';
 import styles from '../styles/Otro.module.css';
 
 
-export const comunitarias = () => {
+export default function comunitarias() {
   return (
     <Layaout
       title="Soluciones Comunitarias"
@@ -15,27 +15,26 @@ export const comunitarias = () => {
     >
     <div className={stylesh.main}>
     <h1>Soluciones Comunitarias</h1>
-        <div className={stylesh.thirteen}>
+        <div className={stylesh.item1}>
             <Image 
                 priority
                 src={"/img/creativity.png"}
                 height={300}
                 width={300}
                 alt="comunitaria"
-                className={styles.logoItem} 
+                className={stylesh.thirteen} 
             
             />
         </div>
         <div className={styles.gridContainer}>
-            <div className={styles.item1}>
+            <div className={stylesh.item1}>
                 <Link href="/energia">
                     <Image
-                        priority
-                        src={"/img/"}
+                        src={"/img/9086052.png"}
                         height={300}
                         width={300}
                         alt="energia"
-                        className={styles.logoItem} 
+                        className={stylesh.thirteen} 
                     />
                 </Link>
                 <p className={styles.descriptionItemC}>Sistemas Autónomos de Energía Limpia </p>
@@ -43,11 +42,11 @@ export const comunitarias = () => {
             <div className={styles.item1}>
                 <Link href="/agua">
                     <Image
-                        src={"/img/"}
+                        src={"/img/390583.png"}
                         height={300}
                         width={300}
                         alt="agua"
-                        className={styles.logoItem} 
+                        className={stylesh.thirteen} 
                     />
                 </Link>
                 <p className={styles.descriptionItemC}>Sistemas de Gestión de Aguas</p>
@@ -55,11 +54,11 @@ export const comunitarias = () => {
             <div className={styles.item1}>
                 <Link href="/tecno">
                     <Image
-                        src={"/img/5234709"}
+                        src={"/img/5234709.png"}
                         height={300}
                         width={300}
                         alt=" innovación tecnológica"
-                        className={styles.logoItem} 
+                        className={stylesh.thirteen} 
                     />
                 </Link>
                 <p className={styles.descriptionItemC}>Innovación Tecnológica</p>
@@ -67,11 +66,11 @@ export const comunitarias = () => {
             <div className={styles.item1}>
                 <Link href="/house">
                     <Image
-                        src={"/img/6416387"}
+                        src={"/img/5234709.png"}
                         height={300}
                         width={300}
                         alt="casa sostenible"
-                        className={styles.logoItem} 
+                        className={stylesh.thirteen} 
                     />
                 </Link>
                 <p className={styles.descriptionItemC}>Casas Sostenibles</p>
@@ -79,11 +78,11 @@ export const comunitarias = () => {
             <div className={styles.item1}>
                 <Link href="/muebles">
                     <Image
-                        src={"/img/3660504"}
+                        src={"/img/3660504.png"}
                         height={300}
                         width={300}
                         alt="mobiliario sostenible"
-                        className={styles.logoItem} 
+                        className={stylesh.thirteen} 
                     />
                 </Link>
                 <p className={styles.descriptionItemC}>Mobiliario Sostenible</p>
