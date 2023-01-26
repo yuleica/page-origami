@@ -21,7 +21,7 @@ export default function industriales() {
                 height={300}
                 width={300}
                 alt="industria"
-                className={styles.logoItem} 
+                className={stylesh.logo} 
             
             />
         </div>

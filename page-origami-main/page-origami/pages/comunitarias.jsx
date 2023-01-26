@@ -15,14 +15,14 @@ export default function comunitarias() {
     >
     <div className={stylesh.main}>
     <h1>Soluciones Comunitarias</h1>
-        <div className={stylesh.item1}>
+        <div className={styles.item1}>
             <Image 
                 priority
                 src={"/img/creativity.png"}
                 height={300}
                 width={300}
                 alt="comunitaria"
-                className={stylesh.thirteen} 
+                className={styles.logo} 
             
             />
         </div>
@@ -34,7 +34,7 @@ export default function comunitarias() {
                         height={300}
                         width={300}
                         alt="energia"
-                        className={stylesh.thirteen} 
+                        className={styles.logoItem} 
                     />
                 </Link>
                 <p className={styles.descriptionItemC}>Sistemas Autónomos de Energía Limpia </p>
@@ -46,7 +46,7 @@ export default function comunitarias() {
                         height={300}
                         width={300}
                         alt="agua"
-                        className={stylesh.thirteen} 
+                        className={styles.logoItem} 
                     />
                 </Link>
                 <p className={styles.descriptionItemC}>Sistemas de Gestión de Aguas</p>
@@ -58,7 +58,7 @@ export default function comunitarias() {
                         height={300}
                         width={300}
                         alt=" innovación tecnológica"
-                        className={stylesh.thirteen} 
+                        className={styles.logoItem} 
                     />
                 </Link>
                 <p className={styles.descriptionItemC}>Innovación Tecnológica</p>
@@ -70,7 +70,7 @@ export default function comunitarias() {
                         height={300}
                         width={300}
                         alt="casa sostenible"
-                        className={stylesh.thirteen} 
+                        className={styles.logoItem} 
                     />
                 </Link>
                 <p className={styles.descriptionItemC}>Casas Sostenibles</p>
@@ -82,7 +82,7 @@ export default function comunitarias() {
                         height={300}
                         width={300}
                         alt="mobiliario sostenible"
-                        className={stylesh.thirteen} 
+                        className={styles.logoItem} 
                     />
                 </Link>
                 <p className={styles.descriptionItemC}>Mobiliario Sostenible</p>
