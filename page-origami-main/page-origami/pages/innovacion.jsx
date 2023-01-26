@@ -24,21 +24,21 @@ export default function innovacion() {
             />
         </div>
         <h1>UNE - INNOVACIÓN TECNOLÓGICA</h1>
-        <p className={stylesh.card}>
+        <p className={stylesh.description}>
             ORIGAMI desarrolla soluciones tecnológicas para distintos desafíos que la industria de hoy mira, en relación al medio ambiente, el cambio climático, la resiliencia y la sostenibilidad
         </p>   
-        <p className={stylesh.card}>
+        <p className={stylesh.description}>
             1.- Solución de Monitoreo Inalámbrico de Variables Eléctricas en Sistemas Eléctricos de Potencia        </p> 
-        <p className={stylesh.card}>
+        <p className={stylesh.description}>
             2.- Sistema de Gestión, Administración y Monitoreo de Procesos Distribuidos Geográficamente
         </p>
-        <p className={stylesh.card}>
+        <p className={stylesh.description}>
             3.- Sistemas de Iluminación Pasivos
         </p>
-        <p className={stylesh.card}>
+        <p className={stylesh.description}>
             4.- Textrónica
         </p>
-        <p className={stylesh.card}>
+        <p className={stylesh.description}>
             5.- Ingeniería de Piezas y Partes 3D
         </p>
     </div>
